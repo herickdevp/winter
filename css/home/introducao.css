@@ -1,0 +1,32 @@
+.introducao-bg {
+  background-color: var(--c12);
+  box-shadow: inset 0 -120px 0 var(--c0); /*inset - difinir a sombra para dentro*/ /*box-shadoew foi a solucao para fazer a imagem com efeito de estar saindo da div*/
+}
+
+.introducao {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 0px 40px;
+}
+
+.introducao-conteudo {
+  align-self: end;
+}
+
+.introducao h1 {
+  margin-bottom: 4rem;
+}
+
+.introducao p {
+  margin-bottom: 20px;
+}
+
+.introducao img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /*Redimensiona para caber no conteiner sem distorcer (cover)*/
+}
+
+.btn-intro {
+  margin-bottom: 170px;
+}
