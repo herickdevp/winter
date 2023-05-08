@@ -1,9 +1,12 @@
 .introducao-bg {
-  background-color: var(--c12);
-  box-shadow: inset 0 -120px 0 var(--c0); /*inset - difinir a sombra para dentro*/ /*box-shadoew foi a solucao para fazer a imagem com efeito de estar saindo da div*/
+  background: var(--c12) url(/img/IntroducaoGOT.jpg) no-repeat;
+  background-size: contain;
+  background-position: right;
+  padding-top: 100px;
 }
 
 .introducao {
+  padding-top: 150px;
   display: grid;
   grid-template-columns: 1fr 1fr;
   gap: 0px 40px;
@@ -28,5 +31,5 @@
 }
 
 .btn-intro {
-  margin-bottom: 170px;
+  margin-bottom: 40px;
 }
