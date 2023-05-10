@@ -35,3 +35,23 @@
   background: var(--c9);
   color: var(--c2);
 }
+
+.link {
+  margin-top: 20px;
+  display: inline-block;
+  color: var(--p4);
+  font: 500 1rem/1.5 "Poppins", sans-serif;
+  text-transform: uppercase;
+}
+
+.link::after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 2px;
+  background-color: currentColor; /*currenColor - vai pegar a cor definida no elemento pai*/
+}
+
+.link:hover {
+  color: var(--p2);
+}
