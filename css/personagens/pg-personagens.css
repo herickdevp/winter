@@ -1,0 +1,38 @@
+.pg-personagens-bg {
+  background-color: var(--c12);
+  color: var(--c0);
+}
+
+.pg-personagens {
+  padding: 100px 0;
+}
+
+.pg-personagens h2 {
+  padding-bottom: 60px;
+}
+
+.pg-personagens-lista {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  column-gap: 30px;
+  row-gap: 70px;
+  text-align: center;
+}
+
+.pg-personagens-lista h3 {
+  margin: 8px 0;
+}
+
+.pg-personagens-lista h3::before {
+  content: "";
+  display: inline-block;
+  background-color: var(--p1);
+  height: 6px;
+  width: 12px;
+  margin-right: 8px;
+  transition: width 200ms;
+}
+
+.pg-personagens-lista a:hover h3::before {
+  width: 24px;
+}

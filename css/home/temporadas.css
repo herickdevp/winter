@@ -29,4 +29,10 @@
 .temporadas-lista h3 {
   margin-top: 15px;
   margin-bottom: 5px;
+  color: var(--c0);
+  transition: 400ms;
+}
+
+.temporadas-lista a:hover h3 {
+  color: var(--p2);
 }
