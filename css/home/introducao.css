@@ -1,5 +1,6 @@
 .introducao-bg {
-  background: var(--c12) url(/img/IntroducaoGOT.jpg) no-repeat;
+  background: var(--c12) url(../../img/IntroducaoGOT.jpg) no-repeat;
+  color: var(--c0);
   background-size: contain;
   background-position: right;
   padding-top: 100px;

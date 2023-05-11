@@ -1,0 +1,23 @@
+.bg-pagina-personagem {
+  background-color: var(--c12);
+  color: var(--c0);
+}
+
+.pagina-personagem {
+  padding: 100px 0;
+}
+
+.pagina-personagem h2 {
+  margin-bottom: 60px;
+}
+
+.separacao-personagem {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 30px;
+  justify-content: center;
+}
+
+.citacao-personagem {
+  margin-bottom: 40px;
+}

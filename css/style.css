@@ -16,7 +16,11 @@
 
 /* Personagens */
 @import "./personagens/pg-personagens.css";
+@import "./personagens/pgs-personagens.css";
 
 /* Temporadas */
 @import "./temporadas/pg-temporadas.css";
-@import "./temporadas/pg-temporada1.css";
+@import "./temporadas/pgs-temporadas.css";
+
+/* Contato */
+@import "./contato/contato.css";

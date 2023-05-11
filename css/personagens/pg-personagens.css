@@ -10,6 +10,9 @@
 .pg-personagens h2 {
   padding-bottom: 60px;
 }
+.pg-personagens img {
+  border-radius: 5px;
+}
 
 .pg-personagens-lista {
   display: grid;

@@ -1,6 +1,6 @@
 // temporadas
 
-const temporadas = document.querySelectorAll(".temporadas button");
+const temporadas = document.querySelectorAll(".pg-temporadas button");
 console.log(temporadas);
 
 function ativarTemporada(event) {
