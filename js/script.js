@@ -18,3 +18,12 @@ function eventosTemporadas(temporada) {
 }
 
 temporadas.forEach(eventosTemporadas);
+
+// Galeria
+var splide = new Splide(".splide", {
+  type: "loop",
+  padding: "25rem",
+  // autoplay: true,
+});
+
+splide.mount();
