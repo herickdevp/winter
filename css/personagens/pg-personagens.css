@@ -30,9 +30,9 @@
   height: 6px;
   width: 12px;
   margin-right: 8px;
-  transition: width 200ms;
+  transition: width 100ms;
 }
 
 .pg-personagens-lista a:hover h3::before {
-  width: 24px;
+  width: 18px;
 }
