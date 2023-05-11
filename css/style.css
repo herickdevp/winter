@@ -17,5 +17,6 @@
 /* Personagens */
 @import "./personagens/pg-personagens.css";
 
-/* Personagens */
+/* Temporadas */
 @import "./temporadas/pg-temporadas.css";
+@import "./temporadas/pg-temporada1.css";

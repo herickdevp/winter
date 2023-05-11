@@ -1,22 +1,21 @@
-.temporadas {
-  padding-top: 120px;
-  padding-bottom: 120px;
+.pg-temporadas {
+  padding: 100px 0;
 }
 
-.temporadas h2 {
+.pg-temporadas h2 {
   margin-bottom: 60px;
 }
 
-.temporadas dl > div {
+.pg-temporadas dl > div {
   padding: 20px;
   border-radius: 4px;
 }
 
-.temporadas dl > div:nth-child(odd) {
+.pg-temporadas dl > div:nth-child(odd) {
   background-color: var(--c1);
 }
 
-.temporadas button {
+.pg-temporadas button {
   display: grid;
   grid-template-columns: auto 1fr auto;
   align-items: center;
@@ -28,7 +27,7 @@
   text-align: left;
 }
 
-.temporadas button::before {
+.pg-temporadas button::before {
   content: "";
   display: inline-block;
   width: 12px;
@@ -36,7 +35,7 @@
   background-color: var(--p1);
 }
 
-.temporadas button::after {
+.pg-temporadas button::after {
   content: "";
   display: inline-block;
   width: 14px;
@@ -45,31 +44,31 @@
   transition: 300ms;
 }
 
-.temporadas button:hover::after,
-.temporadas button[aria-expanded="true"]::after {
+.pg-temporadas button:hover::after,
+.pg-temporadas button[aria-expanded="true"]::after {
   transform: rotate(180deg);
 }
 
-.temporadas dd {
+.pg-temporadas dd {
   display: none;
 }
 
-.temporadas dd.ativa {
+.pg-temporadas dd.ativa {
   display: block;
 }
 
-.temporadas dd {
+.pg-temporadas dd {
   padding-left: 20px;
   padding-top: 16px;
   max-width: 80ch;
 }
 
 @media (max-width: 800px) {
-  .temporadas {
+  .pg-temporadas {
     padding-top: 60px;
     padding-bottom: 60px;
   }
-  .temporadas h2 {
+  .pg-temporadas h2 {
     padding-bottom: 40px;
   }
 }
