@@ -1,7 +1,7 @@
 .bg-contato {
   background-color: var(--c11);
-  color: var(--c0);
-  box-shadow: inset 0 -220px 0 var(--c0);
+  /* color: var(--c0); */
+  box-shadow: inset 0 -220px 0 var(--c3);
 }
 
 .contato-titulo {
@@ -114,7 +114,7 @@
 .form textarea {
   font: 400 1rem/1.5 "Roboto", sans-serif;
   background: var(--c1);
-  border: 1px solid var(--c2);
+  border: 1px solid var(--c5);
   padding: 12px;
   border-radius: 4px;
   width: 100%;
